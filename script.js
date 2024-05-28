@@ -1,4 +1,4 @@
-//single product html script file
+//single product and tops product html script file
 let mainImg = document.getElementById("mainImg");
         let smalImg = document.getElementsByClassName("small-img");
 
