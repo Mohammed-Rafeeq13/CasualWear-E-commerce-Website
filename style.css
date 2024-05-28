@@ -682,3 +682,59 @@ footer p{
     padding: 10px;
     font-size: 13px;
 }
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #465b52;
+    color: #fff;
+}
+
+h1{
+    text-align: center;
+    padding: 10px;
+}
+
+.login-form{
+    height: 300px;
+    width: 400px;
+    background-color: rgba(82, 227, 200, 0.6);
+    border: 2px solid #570fba;
+    border-radius: 10px;
+}
+
+#username,#mail,#password{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#username input{
+    width: 90%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#mail input{
+    width: 90%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#password input{
+    width: 90%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.login-form #login-btn{
+    background-color: #088178;
+    color: #fff;
+    height: 10%;
+    width: 20%;
+    border-radius: 10px;
+    margin-left: 156px;
+    margin-top: 30px;
+}
