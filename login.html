@@ -24,19 +24,25 @@
     </section>
 
     
-    <div class="login-container">
-        <form action="" class="login-form">
-            <h1>Login</h1>
-            <div id="username">
-                <input type="text" placeholder="Username" required="Enter">
+   <div class="login-body">
+        <form id="registrationform">
+            <h2 style="text-align: center;margin: 10px;">Login Form</h2>
+            <div class="login-label">
+                <label for="name">Name :</label>
+                <input type="text" id="name" required>
+                <small>Error Message</small>
             </div>
-            <div id="mail">
-                <input type="email" placeholder="Enter Your E-Mail id" required="Enter">
+            <div class="login-label">
+                <label for="email">Email :</label>
+                <input type="text" id="email" name="email" required>
+                <small>Error Message</small>
             </div>
-            <div id="password">
-                <input type="password" placeholder="Password" required="Enter">
+            <div class="login-label">
+                <label for="password">Password :</label>
+                <input type="text" id="password" name="password" required>
+                <small>Error Message</small>
             </div>
-            <button id="login-btn" onclick="window.location.href='shop.html';">Submit</button>
+            <button class="login-submit" type="submit" onclick="window.location.href='shop.html';">Login</button>
         </form>
     </div>
     
