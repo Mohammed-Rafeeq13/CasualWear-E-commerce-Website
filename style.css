@@ -682,59 +682,61 @@ footer p{
     padding: 10px;
     font-size: 13px;
 }
-.login-container{
+.login-body{
+    font-family: Araial,sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background-color: #465b52;
-    color: #fff;
+    margin: 0;
+    background-color: #f8f9fa;
+    height: 100vh;
 }
-
-h1{
-    text-align: center;
+#registrationform{
+    background-color: #fff;
+    width: 550px;
+    border: 2px solid black;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    border-radius: 10px;
+}
+.login-label{
+    margin-bottom: 18px;
+    position: relative;
+}
+label{
+    display: block;
+    margin-bottom: 8px;
+}
+input{
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+small{
+    visibility: hidden;
+    left: 0;
+    bottom: -20px;
+    position: absolute;
+    color: red;
+}
+input.error{
+    border-color: red;
+}
+.login-submit{
+    margin-left: 220px;
     padding: 10px;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: 1s ease;
 }
-
-.login-form{
-    height: 300px;
-    width: 400px;
-    background-color: rgba(82, 227, 200, 0.6);
-    border: 2px solid #570fba;
-    border-radius: 10px;
+input:hover{
+    cursor: pointer;
+    color: #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
 }
-
-#username,#mail,#password{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-}
-
-#username input{
-    width: 90%;
-    height: 30px;
-    border-radius: 10px;
-}
-
-#mail input{
-    width: 90%;
-    height: 30px;
-    border-radius: 10px;
-}
-
-#password input{
-    width: 90%;
-    height: 30px;
-    border-radius: 10px;
-}
-
-.login-form #login-btn{
-    background-color: #088178;
-    color: #fff;
-    height: 10%;
-    width: 20%;
-    border-radius: 10px;
-    margin-left: 156px;
-    margin-top: 30px;
+.login-submit:hover{
+    cursor: pointer;
+    background-color: cornflowerblue;
 }
