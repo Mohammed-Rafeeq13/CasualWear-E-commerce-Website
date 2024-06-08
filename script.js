@@ -15,6 +15,7 @@ let mainImg = document.getElementById("mainImg");
             mainImg.src =smalImg[3].src;
         }
 
+//Login Form Validation
 document.getElementById('registrationForm').addEventListener('submit',function(event) {
 	event.preventDefault(); // Prevent the default behaviour or form submission
 
