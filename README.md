@@ -13,3 +13,6 @@ This project involves building an E-commerce website. Here are some of the tasks
 ### Searching for Resources 
 
 **Best Practices**: Researching best practices for web development, including performance optimization, security measures, and maintainable code architecture,MDN docs, Photo collection.
+
+# UI of Casual Wear 
+
