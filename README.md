@@ -16,3 +16,4 @@ This project involves building an E-commerce website. Here are some of the tasks
 
 # UI of Casual Wear 
 
+![WhatsApp Image 2025-01-06 at 07 43 47_8dcd193d](https://github.com/user-attachments/assets/97ae4d2b-3352-4ae3-930b-5f8a214f30df)
