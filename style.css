@@ -740,3 +740,210 @@ input:hover{
     cursor: pointer;
     background-color: cornflowerblue;
 }
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+
+/* General Styles 
+body {
+    width: 100%;
+}
+
+h1, h2, h4, h6, p {
+    line-height: 1.5;
+}
+
+button {
+    transition: all 0.3s ease;
+}*/
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .section-p1 {
+        padding: 20px 40px;
+    }
+
+    #header {
+        padding: 15px 40px;
+    }
+
+    #hero {
+        padding: 0 40px;
+    }
+
+    #product1 .pro {
+        width: 48%;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width: 992px) {
+    #header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #navbar {
+        flex-direction: column;
+    }
+
+    #navbar li {
+        padding: 10px 0;
+    }
+
+    #hero {
+        height: 70vh;
+        background-position: center;
+    }
+
+    #product1 .pro {
+        width: 100%;
+    }
+
+    #signin .form {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    #signin input {
+        border-radius: 4px;
+        margin-bottom: 10px;
+    }
+
+    #signin button {
+        border-radius: 4px;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .section-p1 {
+        padding: 10px 20px;
+    }
+
+    #hero {
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    #hero button {
+        padding: 10px 40px;
+        font-size: 14px;
+    }
+
+    #product1 .pro-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #banner {
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    #cart table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    #header {
+        padding: 10px 20px;
+    }
+
+    #hero {
+        height: 60vh;
+    }
+
+    #hero h1, #hero h4 {
+        text-align: center;
+    }
+
+    #signin {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #signin h4 {
+        margin-bottom: 15px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer .col {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    #hero h1 {
+        font-size: 20px;
+    }
+
+    #hero h4 {
+        font-size: 14px;
+    }
+
+    #hero button {
+        padding: 8px 20px;
+        font-size: 12px;
+    }
+
+    #product1 .pro {
+        width: 100%;
+    }
+
+    #signin input {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    #cart table td, #cart table th {
+        font-size: 10px;
+    }
+}
